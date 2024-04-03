@@ -8,7 +8,7 @@ import {Employee} from "./model/employee";
 })
 export class EmployeeService {
 
-  private BaseURL: string = "http://127.0.0.1:8530/employee";
+  private BaseURL: string = "http://127.0.0.1:9090/employee";
 
   constructor(private httpClient: HttpClient) {
   }
